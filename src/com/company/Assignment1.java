@@ -13,8 +13,8 @@ public class Assignment1 {
             System.out.println("Number Two bigger");
         }
 
-        numberOne = 10;
-        numberTwo = 5;
+        System.out.println("NumberOne is " + (numberOne % 2 != 0 ? "odd" : "even") + " and " + (numberOne < 0 ? "negative" : "positive") + " and " + (numberOne < 100 ? "less then 100" : "more then 100"));
+        System.out.println("NumberTwo is " + (numberTwo % 2 != 0 ? "odd" : "even") + " and " + (numberTwo < 0 ? "negative" : "positive") + " and " + (numberTwo < 100 ? "less then 100" : "more then 100"));
 
     }
 }
