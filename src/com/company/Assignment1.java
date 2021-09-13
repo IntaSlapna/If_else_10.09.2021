@@ -3,8 +3,8 @@ package com.company;
 public class Assignment1 {
 
     public static void main(String[] args) {
-        short numberOne = 4;
-        short numberTwo = 10;
+        short numberOne = 2;
+        short numberTwo = 5;
         if (numberOne == numberTwo) {
             System.out.println("Equal");
         } else if (numberOne > numberTwo) {
