@@ -11,8 +11,7 @@ public class Assignment5 {
             System.out.println("Your Salary is " + 10 * workingHoursInDay + " EUR");
         else if (workingHoursInDay > 8 && workingHoursInDay <= 24)
             System.out.println("Your Salary is " + (80 + (workingHoursInDay - 8) * 15) + " EUR");
-        else System.out.println(Error);
+        else System.out.println("Error");
     }
 
-}
 }
